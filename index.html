@@ -267,7 +267,19 @@
         Profile on <a href="https://scholar.google.com/citations?hl=en&user=kzFmAkYAAAAJ&view_op=list_works&sortby=pubdate">Google scholar</a>
       </p>
       <img class="img-responsive img-circle" src="PascalFua.gif" alt="Pascal Fua"> 
-      <h4>Title/abstract: TBD</h4>
+        <h4>Beyond Traditional Mean Field</h4>
+       
+        <button class="btn btn-info" data-toggle="collapse" data-target="#abstractPascal">Abstract</button>
+        <div id="abstractPascal" class="collapse">
+            Mean Field (MF) inference is central to statistical physics.  It has attracted much interest  in  the Computer  Vision  community  to efficiently  solve  problems expressible in terms of large Conditional  Random Fields.
+
+            However, practical MF approximation schemes usually rely on ad hoc damping schemes to guarantee convergence or put strong constraints on the type of models that can be used. Furthermore, as MF 
+            models the posterior probability distribution as a product of marginal probabilities, it may fail to properly account for important dependencies between variables.
+
+            To solve the first problem, we propose a novel proximal gradient-based approach to optimizing the variational objective. It is naturally parallelizable and easy to implement. To address the second, we replace the fully  factorized MF distribution by  a weighted  mixture of  such distributions and introduce an effective approximation algorithm to fit this more complex model. 
+
+            We will demonstrate that this positively impacts people-tracking and segmentation algorithms that rely on MF.
+        </div>
     </div>
     
   </div>
